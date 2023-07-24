@@ -1,347 +1,153 @@
 {
     "basic_info": {
       "description_header": "Hi!",
-      "description": "👋 I'm Adam Howells. I’m a software developer currently undertaking a master's degree. I currently work in the civil service where I create and maintain internal services within an agile environment at the DVLA. The technlogies I primarily work with at the moment is Serverless + AWS, Spring framework, and Ruby.",
-      "philosophy": "I’m a young and motivated individual who is reliable and confident with proven skills and experience. I enjoy problem solving and am quick to learn with good communication skills and the ability to work efficiently either individually or as part of a team in a professional environment. I’m committed to working in the IT industry, a skill and subject I am deeply passionate in.",
-      "preference": "I’m looking for a graduate role abroad, preferably in the Netherlands, although I am open to work anywhere for the right opportunity.",
+      "description": "👋 I'm Andrei Ocsan, in my early twenties and majoring⁠ in System Development in BSIT, currently enrolled in Pangasinan's PHINMA University. I am originally from the enchanting Pangasinan town of Bugallon. This extraordinary ⁠ location has been witness to significant chapters of my life.",
+      "philosophy": "Being young and driven, I possess great ambition to learn and⁠ establish my profession in the area of network security engineering. Compelled by a deep fascination with cybersecurity, My eagerness is to ⁠ explore the intricacies of shielding digital environments from potential threats. With a strong determination to gain expertise and prosper in this particular domain, The idea ⁠ of making valuable contributions to a safe and interconnected tomorrow fills me with enthusiasm. My passion for network⁠ security drives me.",
+      "preference": "Being youthful and determined, I constantly pursue my⁠ goals and aspirations with steadfast determination. Compelled by an intense desire to attain outstanding results, I accept difficulties ⁠ as building blocks on the path to a prosperous tomorrow. With ongoing growth and learning, I am steadfast ⁠ in converting my goals into outstanding achievements.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
         "education": "Education",
-        "expertise": "Expertise",
+        "expertise": "Hobbies",
         "experience": "Experience"
       }
     },
     "projects": [
+
       {
-        "title": "OracyBox",
-        "startDate": "2019",
-        "description": "A blended e-learning solution that attempts to solve the difficulties in current oracy (speaking and listening skills) strategies in primary schools across Wales. The project was developed in conjunction with a member of the education industry. What is delivered is a Laravel/Symfony full-stack application to provide the tools necessary for teachers to record and provide feedback on a range of activities. Activities are then carried out by pupils in the classroom with an iOS application for the iPad.",
+        "title": "CodePoint",
+        "startDate": "2022",
+        "description": "CodePoint is an Android Studio app that helps⁠ prospective programmers on their learning path. It acts as a stepping stone by providing⁠ C++ and Java lectures and activities. Improve your coding abilities with detailed training and⁠ a user-friendly UI provided by the software. Exploring and enhancing your programming talents at your⁠ own pace is made easier with Codepoint. For both newbies and seasoned enthusiasts, it offers⁠ a platform to upgrade your skills. ",
         "images": [
-          "images/portfolio/oracybox/p1.jpg",
-          "images/portfolio/oracybox/p2.png",
-          "images/portfolio/oracybox/p3.jpeg",
-          "images/portfolio/oracybox/p4.jpg"
+          "images/portfolio/codepoint/p1.png",
+          "images/portfolio/codepoint/p2.jpg"
         ],
-        "url": "https://adamisafk.github.io/OracyBox/",
+        "url": "",
+        "technologies": [
+          
+        ]
+      },
+
+      {
+        "title": "FoodHUB",
+        "startDate": "2022",
+        "description": "FoodHUB was developed using Flutter and features⁠ a diverse collection of recipes from different parts of the world. The platform is user-friendly for both experienced chefs and⁠ novice cooks, offering easy-to-follow instructions and ingredient lists. This platform guarantees that anyone can prepare⁠ tasty meals in their own kitchen. Whether you desire convenient and straightforward⁠ meals or indulgent gourmet feasts, FoodHUB functions as a culinary partner,⁠ fueling inspiration for cooking. Make the most of this practical recipe app to explore a⁠ diverse array of appetizing dishes and enhance your cooking proficiency.",
+        "images": [
+          "images/portfolio/foodhub/default.png",
+          "images/portfolio/foodhub/untitled22.png"
+        ],
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-swift-plain",
-            "name": "Swift"
-          },
-          {
-            "class": "devicon-laravel-plain",
-            "name": "Laravel"
-          },
-          {
-            "class": "devicon-mysql-plain",
-            "name": "MySQL"
+          
+          
           }
         ]
       },
+      
       {
-        "title": "Fake News Quiz",
-        "startDate": "2020",
-        "description": "Using PolitiFact data, this a simple react application which aims to test your ability to identify which of two news articles is fake and real. Loading may take some time due to using a free-tier dyno in Heroku.",
+        "title": "Echoes of Resilience",
+        "startDate": "On Going",
+        "description": "The empathetic game named 'Echoes of ⁠Resilience' was created using Unity. The aim is to raise awareness about unnoticed ⁠ depression and cultivate a supportive atmosphere. By utilizing captivating storytelling and interactive gameplay, players are ⁠ urged to address their emotions and seek assistance. The game enables individuals to face mental health ⁠ challenges by examining the protagonist's journey. 'Echoes of Resilience' is designed to establish a protective and thoughtful atmosphere, ⁠foster emotional well-being, and ignite personal growth for all participants. The quest towards healing has had a notable impact.",
         "images": [
-          "images/portfolio/fakenews-quiz/p1.png",
-          "images/portfolio/fakenews-quiz/p2.jpg"
+          "images/portfolio/eor/eor1.png",
+          "images/portfolio/eor/eor2.png"
         ],
-        "url": "https://fakenews-quiz.adamhowells.co.uk/",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "Tetris JS",
-        "startDate": "2020",
-        "description": "I wanted to see if I could develop Tetris (using the official rule book) using only HTML, CSS, and JavaScript. Loading may take some time due to using a free-tier dyno in Heroku.",
-        "images": [
-          "images/portfolio/tetris-js/p1.jpg",
-          "images/portfolio/tetris-js/p2.jpg"
-        ],
-        "url": "https://tetris.adamhowells.co.uk/",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Personalised License Plate Management System",
-        "startDate": "2021",
-        "description": "A full-stack application created for the Web Services and Web Development joint assignment. Uses Spring for the back-end, react for the front-end, and MySQL for the database including Redis for NoSQL caching. Entirely wrapped in docker containers.",
-        "images": [
-          "images/portfolio/lpms/p1.jpg",
-          "images/portfolio/lpms/p2.png",
-          "images/portfolio/lpms/p3.jpeg",
-          "images/portfolio/lpms/p4.jpg"
-        ],
-        "url": "https://github.com/adamisafk/personalised-plates",
-        "technologies": [
-          {
-            "class": "devicon-spring-plain-wordmark",
-            "name": "Spring"
-          },
-          {
-            "class": "devicon-java-plain",
-            "name": "Java"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React.JS"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-nodejs-plain",
-            "name": "Node.JS"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "React-Bootstrap"
-          },
-          {
-            "class": "devicon-nginx-original",
-            "name": "Nginx"
-          },
-          {
-            "class": "devicon-docker-plain",
-            "name": "Docker"
-          },
-          {
-            "class": "devicon-mysql-plain",
-            "name": "MySQL"
-          },
-          {
-            "class": "devicon-redis-plain",
-            "name": "Redis"
-          }
-        ]
-      },
-      {
-        "title": "What Does Ja Rule Think?: A Magic 8-Ball Tool",
-        "startDate": "2021",
-        "description": "A simple magic 8-ball style game where you ask Ja Rule his thoughts, and he shall answer. Created with React.JS and deployed using AWS Amplify.",
-        "images": [
-          "images/portfolio/jarule/1.png",
-          "images/portfolio/jarule/2.png"
-        ],
-        "url": "https://whatdoesjarulethink.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React.JS"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-nodejs-plain",
-            "name": "Node.JS"
-          },
-          {
-            "class": "devicon-materialui-plain",
-            "name": "MaterialUI"
-          },
-          {
-            "class": "devicon-amazonwebservices-original",
-            "name": "AWS"
-          }
-        ]
-      },
-      {
-        "title": "Harmoforce; the Microservice and Front-End",
-        "startDate": "2021",
-        "description": "Harmoforce is a community driven coordinator of validation staking on the Harmony ONE network. This is a microservice which keeps track and records delegators for a given target validator for easier insight into the effective staking pool of Harmoforce. Website created with React.js and deployed via AWS Amplify. Microservice exists as a Python AWS Lambda along with DynamoDB for storage.",
-        "images": [
-          "images/portfolio/harmoforce/1.jpg",
-          "images/portfolio/harmoforce/2.jpg"
-        ],
-        "url": "https://harmoforce.one/",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React.JS"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-nodejs-plain",
-            "name": "Node.JS"
-          },
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-amazonwebservices-original",
-            "name": "AWS"
+            
           }
         ]
       }
+     
     ],
     "education": [
       {
-        "company": "University of Wales Trinity Saint David",
-        "title": "Master's Degree",
-        "description": "Currently on my second semester where I will soon be tackling the dissertation project.",
-        "years": "2020 - 2022",
+        "company": "PHINMA University of Pangasinan",
+        "title": "Information Technology Degree",
+        "description": "Currently on my first semester where I will soon be tackling different projects.",
+        "years": "2021 - 2025",
         "mainTech": [
-          "Computer Software Engineering"
+          "Bachelor of Science in Information Technology"
         ],
         "technologies": [
           "Object-Oriented Programming",
           "Web Development",
-          "Web Services",
-          "Programming and Software Testing",
-          "Agile Software Engineering Principles",
-          "Database Systems",
+          "Game Development",
+          "Integrated Programming",
+          "Advance Database",
+          "Database Management System",
           "More to come..."
         ]
-      },
-      {
-        "company": "University of Wales Trinity Saint David",
-        "title": "Bachelor's Degree",
-        "description": "For my dissertation I researched and developed a blended e-learning solution that attempts to solve the difficulties in current oracy (speaking and listening skills) strategies in primary schools across Wales. The project was developed in conjunction with a member of the education industry. What is delivered is a Laravel/Symfony full-stack application to provide the tools necessary for teachers to record and provide feedback on a range of activities. Activities are then carried out by pupils in the classroom with an iOS application for the iPad.",
-        "years": "2017 - 2020",
-        "mainTech": [
-          "Applied Computing"
-        ],
-        "technologies": [
-          "Advanced Web Development",
-          "Advanced Routing and Switching",
-          "Big Data (Data Science)",
-          "Wide Area Networks",
-          "Application Development",
-          "Business and Web",
-          "Project Management",
-          "Enterprise"
-        ]
-      },
-      {
-        "company": "Coleg Sir Gar",
-        "title": "L3 Extended Diploma | A Level",
-        "description": "My entry into the world of IT. I did a 2-year BTEC L3 diploma in Computing where I was introduced to programming and development, and a whole range of other relevent topics including transferrable skills. In conjuction with this I also undertook an A level in Government and Politics.",
-        "years": "2015 - 2017",
-        "mainTech": [
-          "Computing | Government and Politics"
-        ],
-        "technologies": [
-          "Event-Driven Programming",
-          "Database Design",
-          "Web Development",
-          "Computer Systems Architecture",
-          "Money and Finance Skills (Ex. Diploma L1)",
-          "IT Users (Ex. Diploma L1)",
-          "Welsh Baccalaureate Adv. Global Citizenship and Enterprise"
-        ]
-      },
-      {
-        "company": "Bryngwyn Comprehensive School",
-        "title": "GCSEs",
-        "description": "",
-        "years": "2010 - 2015",
-        "mainTech": [
-          "Various Subjects"
-        ],
-        "technologies": [
-          "ICT (A)",
-          "Mathematics (B)",
-          "Design and Tech Graphic Products (B)",
-          "English Literature (B)",
-          "Welsh Second Language (B)",
-          "BTEC Music (Distinction, Equiv. to 2 GCSEs)",
-          "English Language (C)",
-          "Additional Science (C)",
-          "Core Science (C)",
-          "Geography (C)"
-        ]
-      }
+      } 
     ],
     "expertise": {
       "icons": [
         {
-          "title": "Full-Stack Web Development",
-          "description": "I have skills and experience to develop full-stack web applications and services in a variety of technologies. My knowledge area for full-stack apps include HTML/CSS/JS, Java (+ Spring Framework), NodeJS (+ Express), Serverless (+ AWS Lambda), PHP (+ Laravel/Symfony), React (+ Redux), and Ruby on Rails. I'm able to create and maintain APIs, web servers, and dockerised environments."
+          "title": "Japanese Language",
+          "description": "I studied Japanese at the Polaris Learning and Assessment Center, Inc. Japanese is so intriguing to me that I started studying it, especially now that I'm getting hooked on anime. It would really help me understand the anime without subtitles, but it would also create an opportunity for me to possibly work in Japan."
         },
         {
-          "title": "Database Systems",
-          "description": "I have a detailed level of understanding relational database management systems. I have experience with normalisation and a wide range of SQL languages, most notably MySQL/MariaDB, and NoSQL such as MongoDB and Redis. I also have the know-how to implement and use databases in software applications and RESTful APIs."
+          "title": "Watching Cybersecurity Related Videos",
+          "description": "I am currently getting into cybersecurity in my free time, and it has been very hard, although enjoyable. Learning Linux and other things that are needed to follow the videos that I'm watching is not an easy task, but I think of it as a challenge because this is one of my career choices."
         },
         {
-          "title": "E-Commerce",
-          "description": "I have knowledge in business and have experience with developing an e-commerce site. The Business and Web module I undertook involved responsive web design through CSS frameworks, CMS such as Wordpress, and marketing include social media, email, and blogging."
+          "title": "Manga",
+          "description": "I've fallen profoundly in love with Japanese manga lately. I've finished reading Berserk and Vinland Saga, and I recently started reading The Art of Vagabond by Takehiko Inoue. Highly recommended!"
         },
         {
-          "title": "Data Science",
-          "description": "I understand the difference between traditional and big data and big data strategies (aims, policies, plans, actions). I know how you're able to extract value (useful analysis) from large volumes of data from many data sources. I have experience with working with Apache Hadoop."
+          "title": "Video Games",
+          "description": "I also love playing video games, especially the FPS types. I really liked indie games like Stardew Valley because they helped me relieve stress in my life. Although these days I hardly play because of the heavy workload."
         },
         {
-          "title": "Project Management",
-          "description": "Through project management modules in education and working in an agile environment, I have experience with working with project planning. I'm able to work in Agile methodologies such as SCRUM with the inclusion of DevOps, Continuous Testing/Delivery, and Kanban Boards."
+          "title": "Gym",
+          "description": "Going to the gym is like going to therapy for me. It helps me alleviate my mood and keep my focus on important things. It also gives me the strength to be confident in myself and to continue improving every day, even if it's just 1%."
         },
         {
-          "title": "Networking",
-          "description": "From routing and switching to wide area networks, I understand networking theory and the application of networks. Various networking modules allowed me to learn from Cisco, and take part in CCNA backed exams."
+          "title": "Reading Books",
+          "description": "I rarely read books, but currently I am making it a habit. Self-improvement books such as Atomic Habits and The Art of Not Giving a Fuck are some of my favorites. One of the struggles I've been facing to make it a habit is money. Books are expensive, and I don't want those free e-books online because I also want to reduce my screen time, so yeah."
         }
       ]
     },
     "experience": [
       {
-        "company": "DVLA",
-        "title": "Graduate Software Engineer",
-        "description": "I work at the DVLA as part of it's MSc graduate development programme. My current role is a trainee engineer where I'm a part of a fast paced and encouraging workforce. My responsibilities includes:",
+        "company": "PHINMA UPang",
+        "title": "Bachelor of Science in Information Technology (BSIT)",
+        "description": "I am currently studying BSIT at the PHINMA University of Pangasinan. I believe that persistence and determination in honing my skills and broadening my knowledge are two of my strengths in achieving my goals and dreams in life. At present, my skills sit at:",
         "responsibilities" : [
-          "Providing system support for all environments including our production teams",
-          "Working on technical implementation of apps and infrastructure",
-          "Being involved in with larger in-house projects to meet our customer's requirements",
-          "Supporting the creation of standardised documentation",
-          "Developing skills and understanding of DVLA's tech estate and the process",
-          "Developing, testing and supporting current systems",
-          "Using automated test tools"
+          "Software Development",
+          "Database Management",
+          "Game Development",
+          "Data Structures and Algorithms",
+          "Web Development",
+          "Object-Oriented Programming"
+          
         ],
-        "years": "09.2020 - present",
+        "years": "08.2021 - present",
         "mainTech": [
-          "Serverless"
+          "Student"
         ],
         "technologies": [
-          "Agile Development",
-          "DevOps",
-          "Serverless Stack",
-          "AWS",
-          "Spring Framework",
+          "C++",
           "Java",
-          "Unit Testing",
-          "Ruby on Rails"
+          "Android Studio",
+          "Flutter",
+          "JavaScript",
+          "NodeJS",
+          "Unity",
+          "Git"
         ]
       },
       {
-        "company": "McDonald's",
-        "title": "Crew Member",
-        "description": "In a fast-paced and dynamic environment, I worked among a team of crew members to deliver a service at the best possible quality to all customers. From customer service to cooking, the responsibilities of a crew member is flexbile depending on the given situation.",
+        "company": "Self-Study",
+        "title": "Cybersecurity",
+        "description": "I like to study cybersecurity in my free time, and it really interests me, and it literally becomes one of the aspirations that I have for my career path choice. Currently, I watch video tutorials and lessons about network security engineering. In the near future, I would also apply for workshops to further enhance my knowledge in this field.",
         "responsibilities": [
 
         ],
-        "years": "08.2018 - 05.2019",
+        "years": "present",
         "mainTech": [
           ""
         ],
