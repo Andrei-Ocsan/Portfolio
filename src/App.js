@@ -98,7 +98,7 @@ class App extends Component {
           resumeEducation={this.state.resumeData.education}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        
       </div>
     );
   }

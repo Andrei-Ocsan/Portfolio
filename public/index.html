@@ -3,12 +3,12 @@
   <head>
     <title>Andrei Ocsan | Portfolio</title>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="%PUBLIC_URL%" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="Portfolio of Andrei Ocsan"
-      content="Web site created using react"
+      content="Portfolio"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -21,5 +21,42 @@
     <div id="root"></div>
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  
+    <div class="container">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          
+          <h2 class="white">Contact Me</h2>
+
+          <form action="https://formspree.io/f/mjvqybgq" method="POST" target="_blank">
+           
+          <input type="text" class="field" name="Name" placeholder="Your Name" required>
+          <input type="email" class="field" name="Email" placeholder="Your Email" required>
+          <textarea placeholder="Message" class="field" name="Message" required></textarea>
+          <button class="btn" type="submit">Submit</button> 
+        </form>
+        </div>
+      </div>
+    </div>
+
+    </div>
   </body>
+  
+  <footer>
+    <section class="footer">
+      <div class="social">
+          <a href="https://github.com/Andrei-Ocsan" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/andrei-ocsan-756166253/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:andr.ocsan.up@phinmaed.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+
+      <p class="copyright">Copyright © Andrei Ocsan</p>
+    </section>
+    
+  </footer>
+
 </html>

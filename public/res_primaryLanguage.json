@@ -10,7 +10,8 @@
         "skills": "Skills",
         "education": "Education",
         "expertise": "Hobbies",
-        "experience": "Experience"
+        "experience": "Experience",
+        "contact": "Contact Me"
       }
     },
     "projects": [
@@ -68,7 +69,7 @@
         "company": "PHINMA University of Pangasinan",
         "title": "Information Technology Degree",
         "description": "Currently on my first semester where I will soon be tackling different projects.",
-        "years": "2021 - 2025",
+        "years": "2021 - present",
         "mainTech": [
           "Bachelor of Science in Information Technology"
         ],
